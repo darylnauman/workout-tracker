@@ -1,8 +1,14 @@
 const router = require('express').Router();
-const { Day, Exercise } = require('../models');
+const { Workout } = require('../models');
 
-
-
-
+router.get('/', (req, res) => {
+  Workout.find({})
+    .then(dbWorkout => {
+      res.json(dbWorkout);
+    })
+    .catch(err => {
+      res.status(400).json(err);
+    })
+  });
 
 module.exports = router;

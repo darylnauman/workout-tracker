@@ -1,4 +1,3 @@
 module.exports = {
-  Day: require("./dayModel"),
-  Exercise: require("./exerciseModel")
+  Workout: require("./workoutModel")
 };
