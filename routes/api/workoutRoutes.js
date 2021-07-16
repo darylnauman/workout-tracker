@@ -65,7 +65,7 @@ router.get("/range", ({body}, res) => {
             $sum: "$exercises.duration"
           }
         }
-    }])
+    }]).sort({_id:-1}).limit(7)
       .then(dbWorkout => {
         console.log(dbWorkout);
         res.json(dbWorkout);
