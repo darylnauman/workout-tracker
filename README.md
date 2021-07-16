@@ -32,7 +32,7 @@ This product is under the MIT License.
 
 ## Links
 - [GitHub repository](https://github.com/darylnauman/workout-tracker)
-- [Deployed application on Heroku]()
+- [Deployed application on Heroku](https://hidden-plains-22373.herokuapp.com/)
 
 ## Screenshots
 The images below show the application.
